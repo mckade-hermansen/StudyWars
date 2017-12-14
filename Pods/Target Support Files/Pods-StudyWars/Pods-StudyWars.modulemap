@@ -1,0 +1,6 @@
+framework module Pods_StudyWars {
+  umbrella header "Pods-StudyWars-umbrella.h"
+
+  export *
+  module * { export * }
+}

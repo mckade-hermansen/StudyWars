@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C397025BEA00C0CC754A5C8 /* Pods_StudyWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE3383C4BA7666955CC1344 /* Pods_StudyWars.framework */; };
+		3F24872F1EA52CFC00F635A8 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24872E1EA52CFC00F635A8 /* Players.swift */; };
+		3F887FC91EA6D930009B1EFE /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F887FC81EA6D930009B1EFE /* Play.swift */; };
+		3F89FC271E9F0BFE00F53032 /* Quizzes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89FC261E9F0BFE00F53032 /* Quizzes.swift */; };
+		3F8D865C1E9D868A00F9882C /* findGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D865B1E9D868A00F9882C /* findGroups.swift */; };
+		3FF17A181E9D5178008F7BA8 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF17A171E9D5178008F7BA8 /* Groups.swift */; };
+		C141D4B81E889BB90096F0CB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141D4B71E889BB90096F0CB /* Profile.swift */; };
+		C141D4BA1E889C380096F0CB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141D4B91E889C380096F0CB /* Settings.swift */; };
+		C18179841EAD95D700B62875 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18179831EAD95D700B62875 /* Game.swift */; };
+		C1AD7DFE1E807B91001F6943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD7DFD1E807B91001F6943 /* AppDelegate.swift */; };
+		C1AD7E001E807B91001F6943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD7DFF1E807B91001F6943 /* ViewController.swift */; };
+		C1AD7E031E807B91001F6943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7E011E807B91001F6943 /* Main.storyboard */; };
+		C1AD7E051E807B91001F6943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7E041E807B91001F6943 /* Assets.xcassets */; };
+		C1AD7E081E807B91001F6943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7E061E807B91001F6943 /* LaunchScreen.storyboard */; };
+		C1AD7E101E808995001F6943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7E0F1E808995001F6943 /* GoogleService-Info.plist */; };
+		C1AD7E161E80A447001F6943 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD7E151E80A447001F6943 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F24872E1EA52CFC00F635A8 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		3F887FC81EA6D930009B1EFE /* Play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		3F89FC261E9F0BFE00F53032 /* Quizzes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quizzes.swift; sourceTree = "<group>"; };
+		3F8D865B1E9D868A00F9882C /* findGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findGroups.swift; sourceTree = "<group>"; };
+		3FF17A171E9D5178008F7BA8 /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		8AE3383C4BA7666955CC1344 /* Pods_StudyWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE21D07961BEBF227E890EB /* Pods-StudyWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyWars/Pods-StudyWars.release.xcconfig"; sourceTree = "<group>"; };
+		C141D4B71E889BB90096F0CB /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C141D4B91E889C380096F0CB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C18179831EAD95D700B62875 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C1AD7DFA1E807B91001F6943 /* StudyWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AD7DFD1E807B91001F6943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1AD7DFF1E807B91001F6943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1AD7E021E807B91001F6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1AD7E041E807B91001F6943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1AD7E071E807B91001F6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1AD7E091E807B91001F6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AD7E0F1E808995001F6943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1AD7E111E808C5C001F6943 /* StudyWars-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyWars-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1AD7E151E80A447001F6943 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EE5EA64DF81E79F5F5EB466D /* Pods-StudyWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyWars/Pods-StudyWars.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1AD7DF71E807B91001F6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C397025BEA00C0CC754A5C8 /* Pods_StudyWars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153E909E6742F9EFFF5B93BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE5EA64DF81E79F5F5EB466D /* Pods-StudyWars.debug.xcconfig */,
+				ACE21D07961BEBF227E890EB /* Pods-StudyWars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F89FC281E9F217C00F53032 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AD7E151E80A447001F6943 /* Home.swift */,
+				C141D4B71E889BB90096F0CB /* Profile.swift */,
+				C141D4B91E889C380096F0CB /* Settings.swift */,
+				3FF17A171E9D5178008F7BA8 /* Groups.swift */,
+				3F8D865B1E9D868A00F9882C /* findGroups.swift */,
+				3F89FC261E9F0BFE00F53032 /* Quizzes.swift */,
+				3F24872E1EA52CFC00F635A8 /* Players.swift */,
+				3F887FC81EA6D930009B1EFE /* Play.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9C042F7CFAF189DC95155517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3383C4BA7666955CC1344 /* Pods_StudyWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1AD7DF11E807B91001F6943 = {
+			isa = PBXGroup;
+			children = (
+				C1AD7DFC1E807B91001F6943 /* StudyWars */,
+				C1AD7DFB1E807B91001F6943 /* Products */,
+				153E909E6742F9EFFF5B93BC /* Pods */,
+				9C042F7CFAF189DC95155517 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1AD7DFB1E807B91001F6943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1AD7DFA1E807B91001F6943 /* StudyWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1AD7DFC1E807B91001F6943 /* StudyWars */ = {
+			isa = PBXGroup;
+			children = (
+				C1AD7DFD1E807B91001F6943 /* AppDelegate.swift */,
+				C1AD7DFF1E807B91001F6943 /* ViewController.swift */,
+				3F89FC281E9F217C00F53032 /* View Controllers */,
+				C1AD7E011E807B91001F6943 /* Main.storyboard */,
+				C1AD7E041E807B91001F6943 /* Assets.xcassets */,
+				C1AD7E061E807B91001F6943 /* LaunchScreen.storyboard */,
+				C1AD7E0F1E808995001F6943 /* GoogleService-Info.plist */,
+				C1AD7E091E807B91001F6943 /* Info.plist */,
+				C1AD7E111E808C5C001F6943 /* StudyWars-Bridging-Header.h */,
+				C18179831EAD95D700B62875 /* Game.swift */,
+			);
+			path = StudyWars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1AD7DF91E807B91001F6943 /* StudyWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AD7E0C1E807B91001F6943 /* Build configuration list for PBXNativeTarget "StudyWars" */;
+			buildPhases = (
+				DF01FE765F59B50CE97A98AC /* [CP] Check Pods Manifest.lock */,
+				C1AD7DF61E807B91001F6943 /* Sources */,
+				C1AD7DF71E807B91001F6943 /* Frameworks */,
+				C1AD7DF81E807B91001F6943 /* Resources */,
+				6C31BAC455B1CC79185DA3FF /* [CP] Embed Pods Frameworks */,
+				EDD93FE221BFFDC139502858 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyWars;
+			productName = StudyWars;
+			productReference = C1AD7DFA1E807B91001F6943 /* StudyWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1AD7DF21E807B91001F6943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mckade Hermansen";
+				TargetAttributes = {
+					C1AD7DF91E807B91001F6943 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZDG3Q2NZ3Y;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1AD7DF51E807B91001F6943 /* Build configuration list for PBXProject "StudyWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1AD7DF11E807B91001F6943;
+			productRefGroup = C1AD7DFB1E807B91001F6943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1AD7DF91E807B91001F6943 /* StudyWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1AD7DF81E807B91001F6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AD7E081E807B91001F6943 /* LaunchScreen.storyboard in Resources */,
+				C1AD7E101E808995001F6943 /* GoogleService-Info.plist in Resources */,
+				C1AD7E051E807B91001F6943 /* Assets.xcassets in Resources */,
+				C1AD7E031E807B91001F6943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C31BAC455B1CC79185DA3FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyWars/Pods-StudyWars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF01FE765F59B50CE97A98AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD93FE221BFFDC139502858 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyWars/Pods-StudyWars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1AD7DF61E807B91001F6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F24872F1EA52CFC00F635A8 /* Players.swift in Sources */,
+				C1AD7E001E807B91001F6943 /* ViewController.swift in Sources */,
+				C141D4B81E889BB90096F0CB /* Profile.swift in Sources */,
+				C1AD7E161E80A447001F6943 /* Home.swift in Sources */,
+				3F89FC271E9F0BFE00F53032 /* Quizzes.swift in Sources */,
+				C1AD7DFE1E807B91001F6943 /* AppDelegate.swift in Sources */,
+				C18179841EAD95D700B62875 /* Game.swift in Sources */,
+				3F8D865C1E9D868A00F9882C /* findGroups.swift in Sources */,
+				C141D4BA1E889C380096F0CB /* Settings.swift in Sources */,
+				3FF17A181E9D5178008F7BA8 /* Groups.swift in Sources */,
+				3F887FC91EA6D930009B1EFE /* Play.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1AD7E011E807B91001F6943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1AD7E021E807B91001F6943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1AD7E061E807B91001F6943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1AD7E071E807B91001F6943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1AD7E0A1E807B91001F6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1AD7E0B1E807B91001F6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1AD7E0D1E807B91001F6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5EA64DF81E79F5F5EB466D /* Pods-StudyWars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZDG3Q2NZ3Y;
+				INFOPLIST_FILE = StudyWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mckadehermansen.StudyWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyWars/StudyWars-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1AD7E0E1E807B91001F6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE21D07961BEBF227E890EB /* Pods-StudyWars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZDG3Q2NZ3Y;
+				INFOPLIST_FILE = StudyWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mckadehermansen.StudyWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyWars/StudyWars-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1AD7DF51E807B91001F6943 /* Build configuration list for PBXProject "StudyWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AD7E0A1E807B91001F6943 /* Debug */,
+				C1AD7E0B1E807B91001F6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AD7E0C1E807B91001F6943 /* Build configuration list for PBXNativeTarget "StudyWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AD7E0D1E807B91001F6943 /* Debug */,
+				C1AD7E0E1E807B91001F6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1AD7DF21E807B91001F6943 /* Project object */;
+}
